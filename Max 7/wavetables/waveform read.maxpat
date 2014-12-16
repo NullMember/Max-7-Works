@@ -103,7 +103,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -272,9 +271,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 419.0, 205.0, 141.0, 22.0 ],
+													"patching_rect" : [ 419.0, 205.0, 144.0, 22.0 ],
 													"style" : "",
-													"text" : "$1FactoryWaveforms/$2"
+													"text" : "$1FactoryWaveforms/ $2"
 												}
 
 											}
@@ -307,6 +306,7 @@
 , 											{
 												"box" : 												{
 													"buffername" : "a",
+													"chanoffset" : 0,
 													"id" : "obj-3",
 													"maxclass" : "waveform~",
 													"numinlets" : 5,
