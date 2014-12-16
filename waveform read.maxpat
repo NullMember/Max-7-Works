@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1376.0, 85.0, 182.0, 743.0 ],
+		"rect" : [ 754.0, 85.0, 804.0, 743.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -119,7 +119,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ -31958.0, -31915.0, 695.0, 743.0 ],
+										"rect" : [ 42.0, 85.0, 522.0, 743.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -180,7 +180,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 148.5, 285.0, 29.5, 22.0 ],
+													"patching_rect" : [ 182.5, 285.0, 29.5, 22.0 ],
 													"style" : "",
 													"text" : "$1"
 												}
@@ -220,7 +220,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 381.0, 277.0, 128.0, 22.0 ],
 													"style" : "",
-													"text" : "Segments"
+													"text" : "Random32Step02Grit"
 												}
 
 											}
@@ -717,7 +717,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"items" : [ "Fingers", ",", "Indecision", ",", "Melborne", ",", "Segmented", ",", "Segments", ",", "Sydney" ],
+					"items" : [ "Random8Step01", ",", "Random16Step01", ",", "Random32Step01", ",", "Random32Step01Clip", ",", "Random32Step01Grit", ",", "Random32Step02Clip", ",", "Random32Step02Grit" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -823,7 +823,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 94.0, 291.0, 30.0, 30.0 ],
+													"patching_rect" : [ 94.0, 325.0, 30.0, 30.0 ],
 													"style" : ""
 												}
 
@@ -844,14 +844,14 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-1",
-													"linecount" : 7,
+													"linecount" : 9,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 94.0, 167.0, 538.0, 105.0 ],
+													"patching_rect" : [ 94.0, 167.0, 544.0, 133.0 ],
 													"style" : "",
-													"text" : "append Ameba, append Amino, append Androgenous, append Angels Trumpet, append Bacteria, append Botanical, append Catapiller, append Cosmos, append Digipiller, append DNA, append Eyeliner, append Flagelum, append Fuzzier, append Grime, append Kissing Fish, append Larva, append Leach, append Mescal, append Millipede, append Mulberry, append Mushroom, append Oort, append Osmosis, append Porkipinapatimus, append Porkipine, append Porkipinipus, append RNA, append Roboto, append Seashell, append Siera, append Slug, append Splatter, append Sticks and Stones, append Stigma, append Stigmata, append Turbulesence"
+													"text" : "append UHFAmeba, append UHFAmino, append UHFAndrogenous, append UHFAngelsTrumpet, append UHFBacteria, append UHFBotanical, append UHFCatapiller, append UHFCosmos, append UHFDigipiller, append UHFDNA, append UHFEyeliner, append UHFFlagelum, append UHFFuzzier, append UHFGrime, append UHFKissingFish, append UHFLarva, append UHFLeach, append UHFMescal, append UHFMillipede, append UHFMulberry, append UHFMushroom, append UHFOort, append UHFOsmosis, append UHFPorkipinapatimus, append UHFPorkipine, append UHFPorkipinipus, append UHFRNA, append UHFRoboto, append UHFSeashell, append UHFSiera, append UHFSlug, append UHFSplatter, append UHFSticksandStones, append UHFStigma, append UHFStigmata, append UHFTurbulesence"
 												}
 
 											}
@@ -968,9 +968,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 107.0, 121.0, 498.0, 50.0 ],
+													"patching_rect" : [ 107.0, 121.0, 512.0, 50.0 ],
 													"style" : "",
-													"text" : "append Random 8 Step 1, append Random 16 Step 1, append Random 32 Step 1, append Random 32 Step 01Clip, append Random 32 Step 01Grit, append Random 32 Step 02Clip, append Random 32 Step 02Grit"
+													"text" : "append Random8Step01, append Random16Step01, append Random32Step01, append Random32Step01Clip, append Random32Step01Grit, append Random32Step02Clip, append Random32Step02Grit"
 												}
 
 											}
@@ -1087,9 +1087,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 77.0, 134.0, 563.0, 36.0 ],
+													"patching_rect" : [ 77.0, 134.0, 519.0, 36.0 ],
 													"style" : "",
-													"text" : "append Saw 4bit, append Saw 6bit, append Saw 8bit, append Sine 4bit, append Sine 6bit, append Sine 8bit, append Triangle 4bit, append Triangle 6bit, append Triangle 8bit"
+													"text" : "append Saw4bit, append Saw6bit, append Saw8bit, append Sine4bit, append Sine6bit, append Sine8bit, append Triangle4bit, append Triangle6bit, append Triangle8bit"
 												}
 
 											}
@@ -1300,9 +1300,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 192.0, 145.0, 420.0, 36.0 ],
+													"patching_rect" : [ 192.0, 145.0, 350.0, 36.0 ],
 													"style" : "",
-													"text" : "append Iterations Cos Saw, append Iterations Pulse 1-4th, append Iterations Pulse Tri Square, append Iterations Saw"
+													"text" : "append IterationsCosSaw, append IterationsPulse14th, append IterationsPulseTriSquare, append IterationsSaw"
 												}
 
 											}
@@ -1444,9 +1444,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 138.0, 144.0, 493.0, 50.0 ],
+													"patching_rect" : [ 138.0, 144.0, 462.0, 50.0 ],
 													"style" : "",
-													"text" : "append INVF Random 1, append INVF Random 2, append INVF Random 3, append INVF Random 4, append INVF Random 5, append INVF Random 6, append INVF Random 7, append INVF Random 8"
+													"text" : "append INVFRandom01, append INVFRandom02, append INVFRandom03, append INVFRandom04, append INVFRandom05, append INVFRandom06, append INVFRandom07, append INVFRandom08"
 												}
 
 											}
@@ -1622,7 +1622,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 67.0, 110.0, 640.0, 480.0 ],
+										"rect" : [ 453.0, 149.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1682,9 +1682,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 116.0, 200.0, 524.0, 64.0 ],
+													"patching_rect" : [ 116.0, 200.0, 520.0, 64.0 ],
 													"style" : "",
-													"text" : "append AM Complex NS 8, append AM Complex NS 15, append AM Complex Sine 1, append AM Complex Sine 3, append AM Wnoise Saw01 Root2, append AM Wnoise Saw01, append AM Wnoise Tri01, append AM WnoiseBin Saw01, append AM WnoiseBin Tri01, append AMFM 1, append AMFM 24"
+													"text" : "append AMComplexNS008, append AMComplexNS015, append AMComplexSine001, append AMComplexSine003, append AMWnoiseSaw01Root2, append AMWnoiseSaw01, append AMWnoiseTri01, append AMWnoiseBinSaw01, append AMWnoiseBinTri01, append AMFM001, append AMFM024"
 												}
 
 											}
@@ -1801,9 +1801,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 100.545456, 235.0, 523.0, 77.0 ],
+													"patching_rect" : [ 100.545456, 234.0, 533.0, 77.0 ],
 													"style" : "",
-													"text" : "append Asymmetrical 1, append Asymmetrical 3, append Asymmetrical 6, append Asymmetrical 35, append Asymmetrical 42, append Asymmetrical 45, append Asymmetrical 79, append Asymmetrical 80, append Asymmetrical 81, append Asymmetrical 82, append Asymmetrical 93, append Asymmetrical 100, append Asymmetrical 105, append Asymmetrical 120, append Asymmetrical 121, append Asymmetrical 128"
+													"text" : "append Asymmetrical001, append Asymmetrical003, append Asymmetrical006, append Asymmetrical035, append Asymmetrical042, append Asymmetrical045, append Asymmetrical079, append Asymmetrical080, append Asymmetrical081, append Asymmetrical082, append Asymmetrical093, append Asymmetrical100, append Asymmetrical105, append Asymmetrical120, append Asymmetrical121, append Asymmetrical128"
 												}
 
 											}
@@ -1920,9 +1920,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 118.0, 171.0, 521.0, 133.0 ],
+													"patching_rect" : [ 118.0, 171.0, 513.0, 133.0 ],
 													"style" : "",
-													"text" : "append FM - Complex NS002, append FM - Complex NS008, append FM - Complex NS011, append FM - Complex NS 13, append FM - Complex 16, append FM - Complex 19, append FM - Complex Sine 4, append FM - Complex Sine 5, append FM - Complex Sine 13, append FM - Complex Sine 17, append FM - Complex Sine 18, append FM - Complex Sine 23, append FM - Complex Sine 24, append FM - Complex Sine 28, append FM - Complex Sine 32, append FM - Complex Sine 36, append FM - Complex Sine 38, append FM - Complex Sine 40, append FM - Complex Sine 44, append FM - Complex Sine 45, append FM 1 2 2, append FM 1 4 4, append FM 1 8 8, append FM 1 16 16, append FM Saw1 Sine2 1, append FM Sin1Tri5 1, append FMAM 3, append FMAM 8, append FMAM 12, append FMAM 20, append FMAM 42"
+													"text" : "append FMComplexNS002, append FMComplexNS008, append FMComplexNS011, append FMComplexNS013, append FMComplexNS016, append FMComplexNS019, append FMComplexSine004, append FMComplexSine005, append FMComplexSine013, append FMComplexSine017, append FMComplexSine018, append FMComplexSine023, append FMComplexSine024, append FMComplexSine028, append FMComplexSine032, append FMComplexSine036, append FMComplexSine038, append FMComplexSine040, append FMComplexSine044, append FMComplexSine045, append FM122, append FM144, append FM188, append FM11616, append FMSaw1Sine21, append FMSin1Tri51, append FMAM003, append FMAM008, append FMAM012, append FMAM020, append FMAM042"
 												}
 
 											}
