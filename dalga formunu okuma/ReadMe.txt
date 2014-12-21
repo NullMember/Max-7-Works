@@ -1,0 +1,1 @@
+Majör deðiþiklikler
