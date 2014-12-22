@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 85.0, 1516.0, 743.0 ],
+		"rect" : [ 34.0, 77.0, 1148.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -140,7 +140,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 222.0, 118.0, 266.0, 147.0 ],
+						"rect" : [ 214.0, 110.0, 266.0, 147.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -743,7 +743,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 222.0, 271.0, 266.0, 198.0 ],
+						"rect" : [ 214.0, 263.0, 266.0, 198.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -793,7 +793,6 @@
 									"embed" : 1,
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
-									"hidden" : 1,
 									"id" : "obj-5",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
@@ -810,7 +809,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 222.0, 313.0, 281.0, 160.0 ],
+										"rect" : [ 214.0, 305.0, 281.0, 160.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -839,6 +838,84 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-7",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 347.0, 198.0, 91.0, 22.0 ],
+													"style" : "",
+													"text" : "prepend import"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-6",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 346.0, 239.0, 71.0, 22.0 ],
+													"style" : "",
+													"text" : "buffer~ asd"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "bang" ],
+													"patching_rect" : [ 330.0, 297.0, 29.5, 22.0 ],
+													"style" : "",
+													"text" : "b"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "number",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 449.0, 451.0, 50.0, 22.0 ],
+													"style" : ""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "number",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 351.0, 452.0, 50.0, 22.0 ],
+													"style" : ""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 9,
+													"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+													"patching_rect" : [ 319.0, 360.0, 103.0, 22.0 ],
+													"style" : "",
+													"text" : "info~ asd"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"bgmode" : 0,
 													"border" : 0,
 													"clickthrough" : 0,
@@ -862,7 +939,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 251.0, 346.0, 217.0, 97.0 ],
+														"rect" : [ 243.0, 338.0, 217.0, 97.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -891,6 +968,32 @@
 														"subpatcher_template" : "",
 														"boxes" : [ 															{
 																"box" : 																{
+																	"id" : "obj-10",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "bang", "bang" ],
+																	"patching_rect" : [ 78.0, 196.0, 29.5, 22.0 ],
+																	"style" : "",
+																	"text" : "b"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-1",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "bang", "bang" ],
+																	"patching_rect" : [ 30.0, 196.0, 29.5, 22.0 ],
+																	"style" : "",
+																	"text" : "b"
+																}
+
+															}
+, 															{
+																"box" : 																{
 																	"comment" : "",
 																	"id" : "obj-40",
 																	"maxclass" : "outlet",
@@ -905,14 +1008,14 @@
 																"box" : 																{
 																	"autopopulate" : 1,
 																	"id" : "obj-38",
-																	"items" : [ "FM11616.wav", ",", "FM122.wav", ",", "FM144.wav", ",", "FM188.wav", ",", "FMAM003.wav", ",", "FMAM008.wav", ",", "FMAM012.wav", ",", "FMAM020.wav", ",", "FMAM042.wav", ",", "FMComplexNS002.wav", ",", "FMComplexNS008.wav", ",", "FMComplexNS011.wav", ",", "FMComplexNS013.wav", ",", "FMComplexNS016.wav", ",", "FMComplexNS019.wav", ",", "FMComplexSine004.wav", ",", "FMComplexSine005.wav", ",", "FMComplexSine013.wav", ",", "FMComplexSine017.wav", ",", "FMComplexSine018.wav", ",", "FMComplexSine023.wav", ",", "FMComplexSine024.wav", ",", "FMComplexSine028.wav", ",", "FMComplexSine032.wav", ",", "FMComplexSine036.wav", ",", "FMComplexSine038.wav", ",", "FMComplexSine040.wav", ",", "FMComplexSine044.wav", ",", "FMComplexSine045.wav", ",", "FMSaw1Sine21.wav", ",", "FMSin1Tri51.wav" ],
+																	"items" : [ "Fr4 - MemoryMoog 1.wav", ",", "Fr4 - MemoryMoog 2.wav", ",", "Fr4 - MemoryMoog 3.wav", ",", "Fr4 - MemoryMoog 4.wav", ",", "Fr4 - MemoryMoog 5.wav", ",", "Fr4 - Micromoog 2.wav", ",", "Fr4 - Micromoog 3.wav", ",", "Fr4 - Micromoog 3_inv.wav", ",", "Fr4 - Micromoog 4.wav", ",", "Fr4 - Micromoog.wav", ",", "Fr4 - Minimoog 10.wav", ",", "Fr4 - Minimoog 10_inv.wav", ",", "Fr4 - Minimoog 11.wav", ",", "Fr4 - Minimoog 12.wav", ",", "Fr4 - Minimoog 13.wav", ",", "Fr4 - Minimoog 2.wav", ",", "Fr4 - Minimoog 3.wav", ",", "Fr4 - Minimoog 4.wav", ",", "Fr4 - Minimoog 5.wav", ",", "Fr4 - Minimoog 6.wav", ",", "Fr4 - Minimoog 7.wav", ",", "Fr4 - Minimoog 8.wav", ",", "Fr4 - Minimoog 9.wav", ",", "Fr4 - Minimoog.wav", ",", "Fr4 - Moog MG-1 2.wav", ",", "Fr4 - Moog MG-1 3.wav", ",", "Fr4 - Moog MG-1 4.wav", ",", "Fr4 - Moog MG-1.wav", ",", "Fr4 - Moog Opus Strings 2.wav", ",", "Fr4 - Moog Opus Strings.wav", ",", "Fr4 - Moog Opus Strings_inv.wav", ",", "Fr4 - Moog Prodigy 2.wav", ",", "Fr4 - Moog Prodigy 2_inv.wav", ",", "Fr4 - Moog Prodigy 3.wav", ",", "Fr4 - Moog Prodigy 4.wav", ",", "Fr4 - Moog Prodigy 5.wav", ",", "Fr4 - Moog Prodigy 6.wav", ",", "Fr4 - Moog Prodigy.wav", ",", "Fr4 - Moog Prodigy_inv.wav", ",", "Fr4 - Moog Rogue 2.wav", ",", "Fr4 - Moog Rogue 3.wav", ",", "Fr4 - Moog Rogue 4.wav", ",", "Fr4 - Moog Rogue 5.wav", ",", "Fr4 - Moog Rogue.wav", ",", "Fr4 - Moog Taurus .wav", ",", "Fr4 - Moog Taurus 2.wav", ",", "Fr4 - Moog Taurus 3.wav", ",", "Fr4 - Polymoog 1.wav", ",", "Fr4 - Polymoog 2.wav", ",", "Fr4 - Polymoog 5.wav", ",", "Fr4 - PolyMoog Strings.wav" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 18.0, 67.0, 183.0, 22.0 ],
-																	"prefix" : "D:/GitHub/Max7/dalga formunu okuma/waveforms/FactoryWaveforms/FM/",
+																	"prefix" : "D:/GitHub/Max7/dalga formunu okuma/waveforms/UserWaveforms/Moog/",
 																	"style" : ""
 																}
 
@@ -947,14 +1050,14 @@
 																"box" : 																{
 																	"autopopulate" : 1,
 																	"id" : "obj-29",
-																	"items" : [ "AM", ",", "Asymmetrical", ",", "FM", ",", "INVF", ",", "Iterations", ",", "Other", ",", "Quantized", ",", "Random", ",", "UHF" ],
+																	"items" : [ "Aiyn Zahev", ",", "Arp", ",", "BigTone", ",", "Buchla", ",", "Doepfer", ",", "EMS", ",", "Fairlight", ",", "Insigna", ",", "Korg", ",", "Mellotron", ",", "Modulus", ",", "Moog", ",", "Mopho", ",", "Oberheim", ",", "Oddysey", ",", "OtherSampled", ",", "Prophet", ",", "Rhodes", ",", "Roland", ",", "Vox", ",", "Waldorf", ",", "Yamaha" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 18.0, 36.5, 183.0, 22.0 ],
-																	"prefix" : "D:/GitHub/Max7/dalga formunu okuma/waveforms/FactoryWaveforms/",
+																	"prefix" : "D:/GitHub/Max7/dalga formunu okuma/waveforms/UserWaveforms/",
 																	"style" : ""
 																}
 
@@ -1060,10 +1163,37 @@
  ],
 														"lines" : [ 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-29", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-1", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-38", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-7", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-29", 0 ]
 																}
 
 															}
@@ -1132,6 +1262,15 @@
 															}
 , 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-1", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-6", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-33", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -1182,9 +1321,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 15.0, 203.0, 159.0, 22.0 ],
+													"patching_rect" : [ 15.0, 202.0, 186.0, 22.0 ],
 													"style" : "",
-													"text" : "buffer~ wavetable @size 23"
+													"text" : "buffer~ wavetable @samps 2048"
 												}
 
 											}
@@ -1221,6 +1360,24 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-2", 6 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -1230,7 +1387,43 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-5", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-7", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-35", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-90", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-90", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-90", 0 ]
@@ -1273,6 +1466,7 @@
 									"embed" : 1,
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
+									"hidden" : 1,
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
@@ -1289,7 +1483,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 222.0, 313.0, 337.0, 160.0 ],
+										"rect" : [ 214.0, 305.0, 337.0, 160.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
