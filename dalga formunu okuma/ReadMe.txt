@@ -1,1 +1,1 @@
-Majör deðiþiklikler, Eklemeli ve vektör sentez çalýþmýyor
+Major degisiklikler, Vektor sentez calismiyor, Monofonik
